@@ -1,0 +1,58 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.tableau-pile .card {
+  margin-top: -80px;
+}
+
+.card-group {
+  touch-action: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .tableau-pile .card {
+    margin-top: -75px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .tableau-pile .card {
+    margin-top: -70px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .tableau-pile .card {
+    margin-top: -65px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .tableau-pile .card {
+    margin-top: -60px;
+  }
+
+  .row {
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .tableau-pile .card {
+    margin-top: -50px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+}

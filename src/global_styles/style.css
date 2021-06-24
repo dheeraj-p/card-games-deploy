@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(#2f6d9b, #afcffe) fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 8px;
+  font-family: 'Courier New', Courier, monospace;
+  color: whitesmoke;
+}
+
+.m-medium {
+  height: 40px;
+}
+
+.title {
+  font-weight: 600;
+}
+
+main {
+  width: 100%;
+}
+
+.more-information h2, .more-information h3{
+  color: rgb(45, 45, 45);
+}
+
+.more-information {
+  color: rgb(65, 65, 65);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  width: 768px;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .more-information {
+    padding: 6px;
+  }
+}

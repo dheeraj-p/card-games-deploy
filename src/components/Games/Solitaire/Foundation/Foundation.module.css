@@ -1,0 +1,27 @@
+.foundation {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foundation-icon {
+  height: 60px;
+  width: 60px;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 560px) {
+  .foundation-icon {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .foundation-icon {
+    height: 40px;
+    width: 40px;
+  }
+}
